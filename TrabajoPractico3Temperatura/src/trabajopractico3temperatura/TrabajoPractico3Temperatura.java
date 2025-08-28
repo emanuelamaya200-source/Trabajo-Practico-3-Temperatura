@@ -1,4 +1,3 @@
-
 package trabajopractico3temperatura;
 
 /*
@@ -9,11 +8,16 @@ Teo Nicolas
 Daiana Sosa
 Lucas Serrano
  */
-
 public class TrabajoPractico3Temperatura {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        JFrameTemp temperatura = new JFrameTemp();
+
+        //temperatura
+        temperatura.setVisible(true);
+
+//main
     }
-    
+
 }

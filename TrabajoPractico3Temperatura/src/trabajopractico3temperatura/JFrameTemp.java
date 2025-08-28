@@ -193,6 +193,32 @@ public class JFrameTemp extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_IntroducirgradosActionPerformed
 
+    private void ConverBtnActionPerformed(java.awt.event.ActionEvent evt) {                                          
+
+        try {
+
+            double valor = Double.parseDouble(Introducirgrados.getText());
+            String mensaje = "";
+            if (jRadioButton1.isSelected()) {
+                double f = valor * 9 / 5 + 32;
+                double k = valor + 273.15;
+                mensaje = valor + " °C = " + f + "°F, " + k + " °K ";
+            } else if (jRadioButton2.isSelected()){
+                double c = (valor - 32) * 5 / 9;
+                double k = c + 273.15;
+                mensaje= valor + " °F = " + c + " °C "+  k + " °K";
+            }
+            JOptionPane.showMessageDialog(this, mensaje, "Resultado", JOptionPane.INFORMATION_MESSAGE);
+
+        } catch (NumberFormatException ex) {
+
+            JOptionPane.showMessageDialog(this,
+                    "Por favor ingrese un número válido",
+                    "Error",
+                    JOptionPane.ERROR_MESSAGE);
+        }
+    }            
+   /* 
     private void ConverBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConverBtnActionPerformed
             //boton convertir
                 switch(pasaje){
@@ -220,7 +246,7 @@ public class JFrameTemp extends javax.swing.JFrame {
             pasaje= 4;
     }//GEN-LAST:event_jRadioButton4ActionPerformed
 
-
+*/
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

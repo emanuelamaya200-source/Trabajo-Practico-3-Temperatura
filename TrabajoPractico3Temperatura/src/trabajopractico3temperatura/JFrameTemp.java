@@ -28,6 +28,7 @@ public class JFrameTemp extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        GrupoTemp = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         Introducirgrados = new javax.swing.JTextField();
@@ -62,6 +63,7 @@ public class JFrameTemp extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Conversor de Temperatura");
 
+        GrupoTemp.add(jRadioButton1);
         jRadioButton1.setText("A Fahrenheit ");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -69,6 +71,7 @@ public class JFrameTemp extends javax.swing.JFrame {
             }
         });
 
+        GrupoTemp.add(jRadioButton2);
         jRadioButton2.setText("A Celsius");
         jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,6 +79,7 @@ public class JFrameTemp extends javax.swing.JFrame {
             }
         });
 
+        GrupoTemp.add(jRadioButton3);
         jRadioButton3.setText("A Kelvin ");
         jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,6 +87,7 @@ public class JFrameTemp extends javax.swing.JFrame {
             }
         });
 
+        GrupoTemp.add(jRadioButton4);
         jRadioButton4.setText("A Radianes");
         jRadioButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -241,6 +246,7 @@ public class JFrameTemp extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton ConverBtn;
+    private javax.swing.ButtonGroup GrupoTemp;
     private javax.swing.JTextField Introducirgrados;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

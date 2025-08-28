@@ -193,7 +193,10 @@ public class JFrameTemp extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_IntroducirgradosActionPerformed
 
-    private void ConverBtnActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void ConverBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConverBtnActionPerformed
+          
+        
+                                         
 
         try {
 
@@ -217,36 +220,29 @@ public class JFrameTemp extends javax.swing.JFrame {
                     "Error",
                     JOptionPane.ERROR_MESSAGE);
         }
-    }            
-   /* 
-    private void ConverBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConverBtnActionPerformed
-            //boton convertir
-                switch(pasaje){
-                    case 1 : {}
-                    case 2 : {}
-                    case 3 : {}  
-                    case 4 : {}  
-                    default: {System.out.println("Error");} 
-                }
+    
+//boton convertir
+               
+                
     }//GEN-LAST:event_ConverBtnActionPerformed
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-            pasaje= 1;
+       
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
-            pasaje= 2;
+           
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
-            pasaje= 3;
+            
     }//GEN-LAST:event_jRadioButton3ActionPerformed
 
     private void jRadioButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton4ActionPerformed
-            pasaje= 4;
+            
     }//GEN-LAST:event_jRadioButton4ActionPerformed
 
-*/
+
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

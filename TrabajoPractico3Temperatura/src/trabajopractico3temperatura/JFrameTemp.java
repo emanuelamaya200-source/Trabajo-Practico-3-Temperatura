@@ -210,7 +210,16 @@ public class JFrameTemp extends javax.swing.JFrame {
                 double c = (valor - 32) * 5 / 9;
                 double k = c + 273.15;
                 mensaje= valor + " °F = " + c + " °C "+  k + " °K";
+            } else if (jRadioButton3.isSelected()) {
+               double c = valor - 273.15;
+               double f = c * 9/5 +32;
+               mensaje= valor + " °K = " + c + " °C "+  f + " °F";
+            } else if (jRadioButton4.isSelected()) {
+                double grados = valor * 180 / Math.PI;
+                mensaje = valor + "Radianes= " + grados + "°";
+                
             }
+ 
             JOptionPane.showMessageDialog(this, mensaje, "Resultado", JOptionPane.INFORMATION_MESSAGE);
 
         } catch (NumberFormatException ex) {

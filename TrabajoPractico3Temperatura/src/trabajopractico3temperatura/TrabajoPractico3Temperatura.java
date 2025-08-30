@@ -14,7 +14,9 @@ public class TrabajoPractico3Temperatura {
     public static void main(String[] args) {
 
         JFrameTemp temperatura = new JFrameTemp();
-
+        
+        //centrar
+        temperatura.setLocationRelativeTo(null);
         //temperatura
         temperatura.setVisible(true);
 
